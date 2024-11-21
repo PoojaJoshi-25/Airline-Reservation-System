@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Reservation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Airline Reservation System</h1>
+        </header>
+
+        <main>
+            <section class="booking-form">
+                <h2>Book Your Flight</h2>
+                <form action="#" method="POST">
+                    <label for="departure">Departure City:</label>
+                    <input type="text" id="departure" name="departure" required>
+
+                    <label for="destination">Destination City:</label>
+                    <input type="text" id="destination" name="destination" required>
+
+                    <label for="departure-date">Departure Date:</label>
+                    <input type="date" id="departure-date" name="departure-date" required>
+
+                    <label for="return-date">Return Date:</label>
+                    <input type="date" id="return-date" name="return-date">
+
+                    <label for="seat-class">Seat Class:</label>
+                    <select id="seat-class" name="seat-class" required>
+                        <option value="economy">Economy</option>
+                        <option value="business">Business</option>
+                        <option value="first-class">First Class</option>
+                    </select>
+
+                    <label for="passenger-name">Passenger Name:</label>
+                    <input type="text" id="passenger-name" name="passenger-name" required>
+
+                    <label for="passport">Passport Number:</label>
+                    <input type="text" id="passport" name="passport" required>
+
+                    <button type="submit">Book Flight</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Airline Reservation System</p>
+        </footer>
+    </div>
+</body>
+</html>
